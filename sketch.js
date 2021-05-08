@@ -13,7 +13,7 @@ var divisions=[];
 var divisionHeight=183;
 
 function setup() {
-  createCanvas(800, 600);
+  createCanvas(500, 600);
   engine = Engine.create();
   world = engine.world;
   ground = new Ground(width/2,height,width,20);
